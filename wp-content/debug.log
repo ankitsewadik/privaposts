@@ -1,0 +1,267 @@
+[21-Aug-2018 11:08:42 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:10:30 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:10:33 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:10:56 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:14:34 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:14:53 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[21-Aug-2018 11:16:59 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 448
+[21-Aug-2018 11:19:04 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 448
+[21-Aug-2018 11:23:31 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 448
+[21-Aug-2018 11:41:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 348
+[21-Aug-2018 11:41:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 348
+[21-Aug-2018 11:44:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 348
+[21-Aug-2018 11:44:06 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 530
+[21-Aug-2018 11:44:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 156
+[21-Aug-2018 11:44:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 348
+[21-Aug-2018 11:44:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 156
+[21-Aug-2018 11:45:11 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-admin/includes/plugin-install.php on line 169
+[22-Aug-2018 10:39:36 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[22-Aug-2018 10:41:05 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[22-Aug-2018 10:41:51 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[22-Aug-2018 10:42:09 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[22-Aug-2018 10:42:40 UTC] PHP Fatal error:  Call to undefined function utf8_decode() in /var/www/html/mysafestory/wp-content/plugins/ultimate-member/includes/core/um-actions-form.php on line 447
+[22-Aug-2018 10:51:14 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/mysafestory/wp-content/themes/twentysixteen/header.php on line 29
+[22-Aug-2018 10:51:14 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/mysafestory/wp-content/themes/twentysixteen/header.php on line 29
+[22-Aug-2018 11:01:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/mysafestory/wp-includes/update.php on line 348
+[03-Sep-2018 09:09:05 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:06 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:10 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:10 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:10 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php:228) in /data/home/vncisinl/public_html/privaposts/wp-includes/functions.php on line 1311
+[03-Sep-2018 09:09:13 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:13 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:15 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:17 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:20 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:21 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/functions.php:597
+Stack trace:
+#0 /data/home/vncisinl/public_html/privaposts/wp-includes/class-wp-hook.php(286): add_post('')
+#1 /data/home/vncisinl/public_html/privaposts/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /data/home/vncisinl/public_html/privaposts/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /data/home/vncisinl/public_html/privaposts/wp-admin/admin-ajax.php(100): do_action('wp_ajax_add_pos...')
+#4 {main}
+  thrown in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/functions.php on line 597
+[03-Sep-2018 09:09:22 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:22 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:25 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:27 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:30 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:32 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:33 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[03-Sep-2018 09:09:33 UTC] PHP Notice:  Trying to get property of non-object in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/header.php on line 29
+[03-Sep-2018 09:09:33 UTC] PHP Notice:  Trying to get property of non-object in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/header.php on line 29
+[03-Sep-2018 09:09:35 UTC] PHP Notice:  Array to string conversion in /data/home/vncisinl/public_html/privaposts/wp-content/plugins/wp-awesome-faq/index.php on line 228
+[18-Oct-2018 13:42:40 UTC] PHP Parse error:  syntax error, unexpected ''create_date'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 110
+[18-Oct-2018 13:42:52 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:42:52 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:10 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:10 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:10 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:10 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:11 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:43:11 UTC] PHP Notice:  Undefined property: stdClass::$create_date in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 163
+[18-Oct-2018 13:45:32 UTC] PHP Parse error:  syntax error, unexpected ''status'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 112
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:49:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:02 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:16 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 164
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:50:17 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 173
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:51:55 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 173
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 173
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 165
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 166
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 167
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 168
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 169
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 170
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 171
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 172
+[18-Oct-2018 13:51:57 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/plugins/tableplugin.php on line 173
+[18-Oct-2018 14:00:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/privaposts/wp-includes/update.php on line 348
+[18-Oct-2018 14:09:37 UTC] PHP Warning:  Missing argument 1 for plugin_dir_url(), called in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1544 and defined in /var/www/html/privaposts/wp-includes/plugin.php on line 732
+[18-Oct-2018 14:09:37 UTC] PHP Notice:  Undefined variable: file in /var/www/html/privaposts/wp-includes/plugin.php on line 733
+[18-Oct-2018 14:36:46 UTC] PHP Fatal error:  Cannot redeclare ajax_script_load_more() (previously declared in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php:20) in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 1848
+[18-Oct-2018 14:40:42 UTC] PHP Notice:  Undefined variable: wpdb in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 1793
+[18-Oct-2018 14:40:42 UTC] PHP Fatal error:  Call to a member function update() on null in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 1793
+[18-Oct-2018 14:41:05 UTC] WordPress database error Table 'privaposts.table_name' doesn't exist for query SHOW FULL COLUMNS FROM `table_name` made by do_action('wp_ajax_bankaccount_status'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, bankaccount_status
+[20-Oct-2018 07:00:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/privaposts/wp-includes/update.php on line 156
+[20-Oct-2018 07:00:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/privaposts/wp-includes/update.php on line 348
+[20-Oct-2018 07:00:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/privaposts/wp-includes/update.php on line 530
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Undefined index: ref in /var/www/html/privaposts/wp-content/themes/twentysixteen/ultimate-member/templates/login.php on line 2
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-paymentpopup.php on line 42
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-thankyou.php on line 22
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-thankyou.php on line 25
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-thankyou.php on line 26
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-thankyou.php on line 27
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-thankyou.php on line 28
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-sendppv.php on line 38
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-loginpopup.php on line 30
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Trying to get property of non-object in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-loginpopup.php on line 35
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Undefined index: ref in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-loginpopup.php on line 74
+[20-Oct-2018 07:00:52 UTC] PHP Notice:  Undefined index: refid in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-loginpopup.php on line 121
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  Undefined index: page in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 33
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:01:01 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:01 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:01 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:01 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:01 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:01 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  Undefined index: page in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 33
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:01:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:02 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:01:02 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  Undefined index: page in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 33
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:15:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:51 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:51 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Undefined variable: class5 in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-menus.php on line 47
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1318
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Array to string conversion in /var/www/html/privaposts/wp-content/themes/twentysixteen/functions.php on line 1320
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  Undefined index: page in /var/www/html/privaposts/wp-content/themes/twentysixteen/inc/ajax_function.php on line 33
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853
+[20-Oct-2018 07:15:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:52 UTC] PHP Strict Standards:  Only variables should be passed by reference in /var/www/html/privaposts/wp-content/themes/twentysixteen/template-parts/content-ajaxcontent.php on line 53
+[20-Oct-2018 07:15:52 UTC] PHP Notice:  get_the_author_ID is <strong>deprecated</strong> since version 2.8.0! Use get_the_author_meta('ID') instead. in /var/www/html/privaposts/wp-includes/functions.php on line 3853

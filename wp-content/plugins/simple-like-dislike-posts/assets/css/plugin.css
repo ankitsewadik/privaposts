@@ -1,0 +1,76 @@
+blockquote.sal_msgbox {
+    background: lightblue;
+    width: 500px;
+    margin-left: 0;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+span#likesErrorMsg {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    background: rgba(0, 170, 235, 0.98);
+    color: #000;
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+span#errorMsg {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 250px;
+    display: block;
+    text-align: center;
+    background: rgba(0, 170, 235, 0.98);
+    color: #000;
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+.like-dislike a {
+    margin-right: 15px;
+	font-size: 24px;
+	color: black;
+	outline: none;
+	text-decoration: none;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+.like-dislike a:focus {
+	outline: none;
+}
+a#simpleAjaxLike{
+	color: green;
+}
+a#simpleAjaxDislike{
+	color: red;
+}
+a#simpleAjaxLike:hover, a#simpleAjaxDislike:hover{
+	color: darkmagenta;
+}
+/*****Widget CSS*****/
+ul.sal_most_liked li {
+    width: 100%;
+    display: flex;
+}
+div.sal_thumb_sect {
+    width: 40%;
+}
+div.sal_title_sect {
+    width: 60%;
+}
+.sal_title_sect p {
+    margin: 5px 0 5px 10px;
+}
+p.sal_published_date, p.sal_like_count {
+    font-size: 12px;
+    font-style: italic;
+}
+p.sal_post_title {
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,130 @@
+/*
+Theme Name: Twenty Sixteen
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *    11.1 - Header
+ *    11.2 - Posts and pages
+ *    11.3 - Post Formats
+ *    11.4 - Comments
+ *    11.5 - Sidebar
+ *    11.6 - Footer
+ * 12.0 - Media
+ *    12.1 - Captions
+ *    12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *    14.1 - >= 710px
+ *    14.2 - >= 783px
+ *    14.3 - >= 910px
+ *    14.4 - >= 985px
+ *    14.5 - >= 1200px
+ * 15.0 - Print
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+
+@charset "utf-8";
+@font-face { font-family: 'Segoe UI'; src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),  url('../fonts/SegoeUI-Bold.woff') format('woff'); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Segoe UI'; src: url('../fonts/SegoeUI.woff2') format('woff2'),  url('../fonts/SegoeUI.woff') format('woff'); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Segoe UI'; src: url('../fonts/SegoeUI-Italic.woff2') format('woff2'),  url('../fonts/SegoeUI-Italic.woff') format('woff'); font-weight: normal; font-style: italic; }
+* { margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; }
+body { background: #fff; color: #888a8a; font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.5px; }
+html,
+body { height: 100% }
+img { border: 0 none; height: auto; max-width: 100%; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 { font-weight: 400; }
+a { color: #000ace; }
+.btn { position: relative; transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; letter-spacing: 1.5px; }
+.btn:before { position: absolute; transition: all 0.3s cubic-bezier(0, 0, 0.1, 1); content: ''; left: 0; top: 0; width: 0; height: 100%; background-color: rgba(255, 255, 255, 0.1); }
+.btn:hover:before { width: 100%; }
+.form-control { letter-spacing: .5px; }
+.btn-theme-sm,
+.btn-theme-big { background-color: #000ace; border: none; color: #fff; font-size: 16px; line-height: 48px; }
+.btn-theme-sm:hover,
+.btn-theme-big:hover { background-color: #000799; color: #fff; }
+.btn-theme-sm { min-width: 116px; }
+.btn-theme-big { min-width: 246px; }
+.header { padding: 25px 0 60px; }
+.header .navbar { padding: 0; margin-bottom: 0; }
+.navbar-brand { height: auto; padding: 0; }
+.navbar-brand > img { display: block; max-width: 99px; }
+.login-screen-cmn { min-height: calc(100% - 308px); display: flex; align-items: center; }
+.login-wrap { max-width: 900px; width: 100%; margin: 0 auto; position: relative; z-index: 1; color: #81969f; }
+.flex-row { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; align-items: center; }
+.iphone-frame { position: relative; }
+.carousel-outer { position: absolute; top: 85px; bottom: 86px; right: 64px; z-index: 2; max-width: 263px; border: solid 2px #333; border-radius: 3px; }
+.carousel-outer .owl-dots { bottom: 33px; left: 0; position: absolute; right: 0; text-align: center; z-index: 9; }
+.carousel-outer .owl-dots .owl-dot { background: #f3f3f3; border: none; border-radius: 75%; height: 10px; display: inline-block; transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; margin: 0 4px; width: 10px; }
+.carousel-outer .owl-dots .owl-dot.active,
+.carousel-outer .owl-dots .owl-dot:focus,
+.carousel-outer .owl-dots .owl-dot:hover { background-color: #000ace; border: none; }
+.login-info { padding: 40px; box-shadow: 3px 0 15px rgba(0,0,0,0.15); background-color: #fff; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin: 0 30px; }
+.login-info h2 { margin: 0; color: #000; font-size: 36px; }
+.login-info h2 span { font-size: 14px; display: block; color: #888a8a; padding-top: 15px; }
+.login-info .form-group { position: relative; margin: 20px 0; }
+.login-info .input-icon { position: absolute; left: 0; top: 9px; font-size: 18px; }
+.login-info .form-control { border: none; border-bottom: solid 2px #d7d7d7; height: 50px; padding-left: 36px; font-size: 16px; color: #888a8a; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; box-shadow: none; }
+.login-info .form-control:focus { border-color: #000ace; }
+.login-info ::-webkit-input-placeholder {color: #888a8a;opacity: 1;}
+.login-info ::-moz-placeholder {color: #888a8a;opacity: 1;}
+.login-info :-ms-input-placeholder {color: #888a8a;opacity: 1;}
+.login-info :-moz-placeholder {color: #888a8a;opacity: 1;}
+.login-info .btn { padding: 0 10px; width: 100%; border: none; text-transform: uppercase; margin-top: 15px; }
+.text-bottom { padding-top: 30px; }
+.login-info .btn-text { color: #000ace; }
+.login-info .text-link:hover { color: #000799; }
+.footer { border-top: solid 1px #cbcdf2; margin: 40px auto 0; padding: 25px 0; }
+.footer * { transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; }
+.footer-links ul { text-transform: uppercase; text-align: center; list-style: none; margin: 0; padding: 0; }
+.footer-links ul li { display: inline-block; vertical-align: middle; padding: 0 10px; }
+.footer-links ul li a { color: #000000; }
+.footer-links ul li a:hover { color: #000ace; }
+
+
+

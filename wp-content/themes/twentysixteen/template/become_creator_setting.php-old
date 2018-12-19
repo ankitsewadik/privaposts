@@ -1,0 +1,180 @@
+<?php 
+    global $current_user; 
+    $subscription_price = get_user_meta( $current_user->ID, 'subscription_price', true );
+    $subscription_price_val = get_user_meta( $current_user->ID, 'subscription_price_val', true );
+    $user_bank_details = get_user_meta( $current_user->ID, 'user_bank_details', true );
+    
+    $user_bank_details= unserialize($user_bank_details);
+    //print_r($user_bank_details);
+    if($user_bank_details && !empty($user_bank_details)){
+     
+        $legal_name=($user_bank_details['legel_name'] && $user_bank_details['legel_name']!='')?$user_bank_details['legel_name']:'';
+        $document_id=($user_bank_details['document_id'] && $user_bank_details['document_id']!='')?$user_bank_details['document_id']:'';
+        $bank_country=($user_bank_details['bank_country'] && $user_bank_details['bank_country']!='')?$user_bank_details['bank_country']:'';
+        $document_url=(isset($user_bank_details['document_url']) && $user_bank_details['document_url']!='')?$user_bank_details['document_url']:'';  
+    }
+
+if(isset($_POST['bank_detail']) && $_POST['bank_detail']!='' && $_POST['bank_detail']=='bank_detail'){
+   
+    $user_bank_information=array();    
+    $subscription_price=(isset($_POST['subscription_price']) && $_POST['subscription_price']!='')?$_POST['subscription_price']:'';
+    $legal_name=(isset($_POST['legal_name']) && $_POST['legal_name']!='')?$_POST['legal_name']:'';
+    $document_id=(isset($_POST['document_id']) && $_POST['document_id']!='')?$_POST['document_id']:'';
+    $bank_country=(isset($_POST['bank_country']) && $_POST['bank_country']!='')?$_POST['bank_country']:'';
+    $document_url_added=(isset($_POST['document_url_added']) && $_POST['document_url_added']!='')?$_POST['document_url_added']:'';
+        
+        //print_r($_FILES);
+
+        if(isset($current_user->ID) && $current_user->ID!=''){
+            
+           $user_bank_information=array('legel_name'=>$legal_name,'document_id'=>$document_id,'bank_country'=>$bank_country,'document_url'=>'');
+           
+            if($subscription_price!=''){
+                 update_user_meta( $current_user->ID, 'subscription_price', $subscription_price);
+            }
+            
+            
+            if ( !function_exists("wp_handle_upload") ) {
+                require_once(ABSPATH . "wp-admin/includes/file.php");
+            }
+            if(isset($_FILES['document']['name']) && $_FILES['document']['name']!=''){
+              
+               $movefile = wp_handle_upload($_FILES['document'], array('test_form' => false,'unique_filename_callback'=>'my_custom_filename') );
+                if($movefile['url']!=''){
+                  $user_bank_information['document_url']=$movefile['url'];
+                } 
+            }else{
+                $user_bank_information['document_url']=$document_url_added;
+            }
+
+            //print_r($user_bank_information);
+            
+            update_user_meta( $current_user->ID, 'user_bank_details', serialize($user_bank_information));
+            $_SESSION['message'] = '<div class="alert alert-success"><strong>Success!</strong> Your account is being approved, please allow 24-48hrs.</div> ';
+           /* wp_redirect( site_url('/become-creator') );
+            exit;*/
+
+        }else{
+           $_SESSION['message'] = '<div class="alert alert-danger"><strong>Error!</strong> Some thin goes wrong please try again latter.</div>';
+        }
+
+}
+else{
+  $_SESSION['message']='';
+}
+if(isset($_SESSION['message']) && $_SESSION['message']!=''){
+ echo $_SESSION['message'];   
+}
+   
+?>                 
+<div class="bcme-creator-info">
+    <p><strong>Step 1</strong> is the only step required to become a Creator. 
+Once you set your Subscription Price you will be able to post content and instantly earn money from subscribers.</p><p><strong>Step 2</strong> is optional, and <strong>Steps 3 </strong> &<strong> 4</strong> are only required to withdraw your earnings.</p>
+</div>
+
+<form class="cmxform" id="bank_detail" name="bank_detail"  method="post" action="" enctype="multipart/form-data">
+
+     <input type="hidden" name="bank_detail" value="bank_detail">  
+        <div class="next-text">
+            <div class="text-head">
+                <h2>Subscription Price</h2>
+            </div>
+            <?php 
+                if($subscription_price_val && $subscription_price_val=='off'){
+                  $disabled='readonly';
+                }else{
+                  $disabled='';
+                }
+            ?>
+            <div class="text-cont1">
+                <div class="form-group">
+
+                   <input type="text" class="form-control subscription_price"  placeholder="00.00" name="subscription_price" id="subscription_price" value="<?php echo $subscription_price;?>" <?php echo $disabled;?>>
+                    <label for="exampleInputEmail1">USD per month</label>
+                    <label for="st">Street<span class="mandatory-star">*</span></label>
+                </div>
+                <div class="p-text">
+                    <p>*Subscription price required in order to post content. Money earned will be kept in a holding account until you <a href="<?php echo site_url();?>/payment-details">Enter Bank Details</a> to collect your money. By setting a subscription price, you confirm you are at least 18 years old and agree to our terms & conditions for posting content</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="set-panels bec-set">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Verify ID
+                </div>
+                <div class="panel-body clearfix">
+                    <div class="area-box ">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Legal Name</label>
+                            <input type="text" class="form-control" id="pass" placeholder="" name="legal_name" id="legal_name" value="<?php echo $legal_name;?>">
+
+                        </div>
+                    </div>
+                    <div class="area-box ">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Document Id</label>
+                            <input type="text" class="form-control" name="document_id" id="document_id" placeholder="" value="<?php echo $document_id;?>" >
+                            <p>Please upload a Government issued photo ID Document (i.e. Passport, Drivers Licence)</p>
+
+                        </div>
+                    </div>
+                    <div class="btn-pas up-btn">
+                        <input type="file"  class="form-control" id="document" name="document" placeholder="">
+                        <label for="upload" class="btn theme-btn btn-default">Upload File</label>
+
+                    </div>
+                    <input type="hidden" name="document_url_added" id="document_url_added" value="<?php echo $document_url;?>">
+                    <?php 
+          
+                    if(isset($document_url)&& $document_url!=''){
+
+                        $imagename=basename($document_url);
+                       ?>
+                            <div class="click-link">
+                            <a href="<?php echo $document_url;?>" target="_blank">Click Save to send <?php echo $imagename;?></a>
+                            </div>
+                   <?php  } ?>
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="set-panels bec-set">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Verify ID
+                </div>
+                <div class="panel-body clearfix">
+                    <div class="area-box ">
+                        <div class="form-group">
+                            <label for="sel2">Bank account country</label>
+
+
+        <?php                          
+            $cntCode="13,14,21,38,58,74,75,82,98,105,107,109,127,154,155,157,164,176,196,205,211,212,230,231";
+            $countryDropdown=countryDropdown($cntCode);
+        ?>
+
+                        <select class="form-control" id="bank_country" name="bank_country">
+                            <option value="">Select a option</option>
+                            <?php foreach ($countryDropdown as $value) {
+                            ?>
+                            <option <?php if($bank_country==$value->sortname){?>  selected <?php } ?> value="<?php echo $value->sortname;?>"><?php echo $value->name;?></option>
+                            
+                        <?php } ?>  
+                        </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-btn">
+            <div class="btns clearfix">
+                <button type="button" class="btn btn-default cancel" data-dismiss="modal">Cancel</button>
+                <button type="submit" class=" btn btn-default save">Submit</button>
+            </div>
+        </div>
+</form>

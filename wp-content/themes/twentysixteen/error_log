@@ -1,0 +1,4 @@
+[10-Sep-2018 13:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /data/home/vncisinl/public_html/privaposts/wp-content/themes/twentysixteen/index.php on line 16
