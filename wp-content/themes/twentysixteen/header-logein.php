@@ -10,7 +10,7 @@
     */
  ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
+<html <?php language_attributes(); ?> class="no-js"> 
    <head>
       <meta charset="<?php bloginfo( 'charset' ); ?>">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,6 @@
          var pageId = "<?php echo get_the_ID(); ?>";
       </script>
       <?php wp_head(); ?>
-
       <?php 
          $isPuUser = (get_user_meta( um_profile_id(), 'subscription_price', true))?true:false;
          if(!$isPuUser){
@@ -39,26 +38,23 @@
            // wp_redirect(home_url('new-post')); exit;
          }
          $isPuUser = true;
-         
          $subscription_price =  get_user_meta( um_profile_id(), 'subscription_price', true); 
          $subscription_price =  ($subscription_price)?$subscription_price:'0.00';
-         
-         ?>
+      ?>
    </head>
-
 
    <body <?php body_class(); ?>>
 
-<?php if(!is_user_logged_in()){ ?>
+  <?php if(!is_user_logged_in()){ ?>
     <header class="header" <?php if( $post->ID == 20 || $post->ID == 22) { ?> style="display:none;" <?php } ?>>
- <div class="container">
-  <div class="logo-lft">
-  <?php  //twentysixteen_the_custom_logo(); ?>
-  <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/assets/images/privaposts-white-logo.png"></a>
-  </div> 
+  <div class="container">
+    <div class="logo-lft">
+      <?php  //twentysixteen_the_custom_logo(); ?>
+      <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/assets/images/privaposts-white-logo.png"></a>
+    </div> 
   <div class="menu-rgt">
     
-           <?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
+      <?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
       <?php if ( has_nav_menu( 'primary' ) ) : ?>
       <?php
         if(is_user_logged_in()){
@@ -74,14 +70,11 @@
  </div>
 </header>
 <?php } ?>
-
       <div class="dash-head-wrp <?php if(!$isPuUser ){ ?> login-home-dash <?php } ?>" >
          <?php   if(is_user_logged_in()){ ?>
       <div class="icon-nav-wrp">
          <div class="container">
-         
             <?php get_template_part( 'template-parts/content', 'menus' ); ?>
-        
          </div>
       </div>
         <?php } ?>  
@@ -136,28 +129,7 @@
             <div class="dui-inner">
                <div class="container">
                   <div class="dash-user-info-inn topfixedh">
-                     
-                     <?php /* if(is_currentUser()){ ?>
-                     <div class="foll-btn-top"> <a href="<?php echo home_url('edit-profile'); ?>">Edit Profile</a> </div>
-                     <?php }else{ 
-                        $user_id = um_profile_id();
-                        
-                        if ( UM()->Followers_API()->api()->followed( um_profile_id(), get_current_user_id() ) ) { ?>
-                     <div class="foll-btn-top">
-                     	<?php $check =  is_addedpaymentinfo(get_current_user_id()); 
-                     		  $customerId = $check['customer_id'];
-                     		  if(isset($customerId) && $customerId !=""){ 	?>
-                     		  	<a data-toggle="modal" data-backdrop="static" data-keyboard="false" href="javascript:void(0)" data-target="#sendtipwithcard-popup" >Send a Tip</a>  
-                     	<?php  }else{ ?>
-                     			<a data-toggle="modal" data-backdrop="static" data-keyboard="false" href="javascript:void(0)" data-target="#sendtip-popup" >Send a Tip</a>  
-                     	<?php  } ?>
-                        
-                     </div>
-                     <?php } //send tip of subscribed?>
-                     <?php 
-                        } */ ?>
                      <div class="user-img-bx">
-
                         <div class="user-in-bx">
                           <?php  $umid = um_profile_id();
 
@@ -177,32 +149,24 @@
                         </div>
                      </div>
                      <div class="user-info-top">
-                      
-                           <div class="user-name">
-
-                            <h3><div class="user-overflow"><?php echo isset($current_user->first_name) && $current_user->first_name != ''?$current_user->first_name.' '.$current_user->last_name:$current_user->user_login; ?></div><span class="verify-user">
-
-                           <img src="<?php echo get_template_directory_uri()?>/assets/images/tick_small_edit.png" />
-
-                            </span>
-                            </h3>
-
-
-                             
-                              <p>@<?php echo $current_user->user_login; ?></p>
-                           </div>
-                           <!-- follow button condtion -->
-                       
-                     </div>
-                    
+                      <div class="user-name">
+                        <h3>
+                          <div class="user-overflow"><?php echo isset($current_user->first_name) && $current_user->first_name != ''?$current_user->first_name.' '.$current_user->last_name:$current_user->user_login; ?>
+                          </div>
+                          <span class="verify-user">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/images/tick_small_edit.png" />
+                          </span>
+                        </h3>
+                            <p>@<?php echo $current_user->user_login; ?></p>
+                      </div>
+                          <!-- follow button condition -->
+                   </div>
+                   
                      <div class="user-info-botm topfixbtm">
-                       
-                      
-                           <div class="usr-info-list">
-                              <div class="button-list">
-
-                      <?php if(is_currentUser()){ ?>
-                      				<a class="btn btn-default profilebtn blue-btn-hover" href="<?php echo home_url('edit-profile'); ?>">Edit Profile</a> 
+                       <div class="usr-info-list">
+                         <div class="button-list">
+                        <?php if(is_currentUser()){ ?>
+                       				<a class="btn btn-default profilebtn blue-btn-hover" href="<?php echo home_url('edit-profile'); ?>">Edit Profile</a> 
                      <?php }else{ 
                         $user_id = um_profile_id();
                         

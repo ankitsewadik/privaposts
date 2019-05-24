@@ -1,13 +1,10 @@
  <?php 
     $um_profile_id = numhash($_GET['ref']);
-   // $url = (!is_user_logged_in())?site_url().'/wp-content/uploads/ultimatemember/'.$um_profile_id.'/cover_photo.png?1537006979':site_url().'/wp-content/uploads/dummy-cover-new.jpg';
     $url = (!is_user_logged_in())?site_url().'/wp-content/uploads/ultimatemember/'.$um_profile_id.'//cover_photo.png?1537006979':site_url().'/wp-content/uploads/dummy-cover-new.jpg';
     $current_user = get_user_by('id', $um_profile_id);
     $description = get_user_meta($um_profile_id, 'description', true );
-
     $subscription_price =  get_user_meta( $um_profile_id, 'subscription_price', true); 
     $subscription_price =  ($subscription_price)?$subscription_price:'0.00';
-
  ?>
 <header class="header">
    <div class="container">
@@ -31,28 +28,24 @@
             <div class="dash-user-info-inn topfixedh">
                <div class="user-img-bx">
                   <div class="user-in-bx">
-                    <?php  $umid = $um_profile_id;
-
+                          <?php  
+                            $umid = $um_profile_id;
                             $loginStatus= get_user_meta( $umid, 'login_status', true);
-
-                          if($loginStatus){ ?>
-                            <div class="online-icon"></div>
-                          <?php }
-                          ?>
-
+                           if($loginStatus){ ?>
+                                  <div class="online-icon"></div>
+                          <?php } ?>
                      <div class="usr-img">
-                         <?php echo get_avatar(  $um_profile_id, 175 ); ?>                    
+                            <?php echo get_avatar(  $um_profile_id, 175 ); ?>                    
                      </div>
                   </div>
                </div>
                <div class="user-info-top">
                   <div class="user-name">
-                      <h3><div class="user-overflow"><?php echo isset($current_user->first_name) && $current_user->first_name != ''?$current_user->first_name.' '.$current_user->last_name:$current_user->user_login; ?></div><span class="verify-user">
-
+                      <h3>
+                        <div class="user-overflow"><?php echo isset($current_user->first_name) && $current_user->first_name != ''?$current_user->first_name.' '.$current_user->last_name:$current_user->user_login; ?></div><span class="verify-user">
                            <img src="<?php echo get_template_directory_uri()?>/assets/images/tick_small_edit.png" />
-
                             </span>
-                            </h3>
+                      </h3>
                       <p>@<?php echo $current_user->user_login; ?></p>
                   </div>
                   <!-- follow button condtion -->

@@ -19,7 +19,6 @@
 <?php get_template_part( 'template-parts/content', 'messagepopup' ); ?>
 <?php get_template_part( 'template-parts/content', 'thankyou' ); ?> 
 <?php get_template_part( 'template-parts/content', 'sendppv' ); ?> 
-
 <?php 
   if(!is_user_logged_in()){
       get_template_part( 'template-parts/content', 'loginpopup' ); 
@@ -123,8 +122,3 @@ background: rgba(255, 255, 255, 0.79);
 
 </body>
 </html>
-
-
-
-
-		
